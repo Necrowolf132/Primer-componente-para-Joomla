@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension type="component" version="3.9" method="upgrade">
+
+    <name>My componente</name>
+    <creationDate>11-12-2019</creationDate>
+    <author>Jese Brito</author>
+    <authorEmail>manjou132@gmial.com</authorEmail>
+    <authorUrl>http://www.creacionesjesebrito.com.ve</authorUrl>
+    <copyright>GPU</copyright>
+    <license>Free</license>
+    <vesion>0.0.5</vesion>
+    <description>El primer super arrechisimo componente Joomla que hace Jese Brito</description>
+
+    <uptade>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </uptade>
+
+    <files folder="site">
+        <filenane>index.html</filenane>
+        <filename>mycomponente.php</filename>
+        <filename>controller.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+    </files>
+
+    <administration>
+        <menu link="index.php?option=com_mycomponente"> Componente de jese</menu>
+        <files folder="admin">
+            <filenane>index.html</filenane>
+            <filename>mycomponente.php</filename>
+            <folder>sql</folder>
+        </files>
+    </administration>
+
+</extension>

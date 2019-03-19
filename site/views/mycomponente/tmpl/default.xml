@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_MYCOMPONENTE_MYCOMPONENTE_VIEW_DEFAULT_TITLE">
+        <message>
+            <![CDATA[MYCOMPONENTE_MYCOMPONENTE_VIEW_DEFAULT_DESC]]>
+        </message>
+        <fields name="request">
+            <fieldset name="request">
+                <field
+                        name="campo-selector"
+                        type="list"
+                        label="COM_MYCOMPONENTE_MYCOMPONENTE_FIELD_GREETING_LABEL"
+                        description="COM_MYCOMPONENTE_MYCOMPONENTE_FIELD_GREETING_DESC"
+                        default="1">
+                    <option value="1">Jese ES un Pipi</option>
+                    <option value="2">Rai es china</option>
+                </field>
+            </fieldset>
+        </fields>
+    </layout>
+</metadata>
